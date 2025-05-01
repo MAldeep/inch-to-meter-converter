@@ -1,4 +1,4 @@
-// updated version
+// Refactored version
 // this part is added as it's a form so i think submitting the form reloads the page as a default setting..
 const form = document.querySelector('form');
 form.addEventListener('submit', (e) =>{
@@ -12,7 +12,6 @@ let showResult = () =>{
     let convertedResult = (distance / 39.37).toFixed(1);
     result.innerHTML = `${distance} inches equals ${convertedResult} metres.`;
 }
-
 
 
 
